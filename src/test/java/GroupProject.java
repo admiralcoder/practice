@@ -10,6 +10,7 @@ public class GroupProject {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		
+		driver.get("http://google.com");
 
 	}
 
