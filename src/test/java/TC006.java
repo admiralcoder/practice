@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class GroupProject {
+public class TC006 {
 	
 	WebDriver driver;
 
