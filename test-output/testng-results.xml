@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36289" started-at="2018-06-26T18:30:38Z" finished-at="2018-06-26T18:31:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36289" started-at="2018-06-26T18:30:38Z" finished-at="2018-06-26T18:31:14Z">
+      <class name="GroupProjectAleG">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:GroupProjectAleG@685cb137]" name="setUpMethod" is-config="true" duration-ms="11811" started-at="2018-06-26T18:30:38Z" finished-at="2018-06-26T18:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="verifyingPage()[pri:0, instance:GroupProjectAleG@685cb137]" name="verifyingPage" duration-ms="24454" started-at="2018-06-26T18:30:50Z" finished-at="2018-06-26T18:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingPage -->
+      </class> <!-- GroupProjectAleG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
