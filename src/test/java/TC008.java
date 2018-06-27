@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class GroupProject {
+public class TC008 {
 
 	public static void main(String[] args) {
 
