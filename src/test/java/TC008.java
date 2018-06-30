@@ -217,13 +217,14 @@ public class TC008 {
 		BigDecimal sum = new BigDecimal(0.0);
 		for (BigDecimal s : tempAV) {
 //			System.out.println(s);
-			BigDecimal bd = new BigDecimal((Double.parseDouble(".04")));
+			BigDecimal bd = new BigDecimal((Double.parseDouble(".009")));
 			s = s.add( bd );
-			sum = sum.add(s).setScale(1, RoundingMode.HALF_UP);
+			sum = sum.add(s).setScale(1, RoundingMode.UP);
 			// System.out.println(sum);
 		}
 		BigDecimal months = new BigDecimal(12.0);
-		BigDecimal avgBD = sum.divide(months,1, RoundingMode.UP);
+		BigDecimal avgBD = sum.divide(months,2, RoundingMode.UP);
+		avgBD = avgBD.setScale(1, RoundingMode.HALF_UP);
 		return avgBD;
 	}
 
